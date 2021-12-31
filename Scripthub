@@ -1,0 +1,93 @@
+local key = "FirstKeyLol"
+if key == "FirstKeyLol" then
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GreenDeno/Venyx-UI-Library/main/source.lua"))()
+local Main = library.new("ScriptHub | Go sub to ScriptHub on YT",5013109572)
+print("Loading")
+	-- themes
+	local themes = 
+		{
+			Background = Color3.fromRGB(24, 24, 24),
+			Glow = Color3.fromRGB(0, 0, 0),
+			Accent = Color3.fromRGB(10, 10, 10),
+			LightContrast = Color3.fromRGB(20, 20, 20),
+			DarkContrast = Color3.fromRGB(14, 14, 14),  
+			TextColor = Color3.fromRGB(255, 255, 255)
+		}
+	-- bloxfruits scripts
+	local BFScriptpage = Main:addPage("BloxFruits", 5012544693)
+	local BFScriptSection = BFScriptpage:addSection("BloxFruits Scripts")
+	local BloxFruitsScript1 = BFScriptSection:addToggle("StrikeHub", nil, function(state)
+		state = loadstring(game:HttpGet("https://raw.githubusercontent.com/StormSKz12/StirkeHub1/main/Gameincluded"))()
+	end)
+	local BloxFruitsScript2 = BFScriptSection:addToggle("Mukuro UI", nil, function(state)
+		state = loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+	end)
+	local BloxFruitsScript3 = BFScriptSection:addToggle("Hulk Hub", nil, function(state)
+		state = loadstring(game:HttpGet"https://raw.githubusercontent.com/HULKUexe/Free---Script/main/3GAME")()
+	end)
+	-- PSX Scripts
+	local PSXScriptpage = Main:addPage("Pet sim x", 5012544693)
+	local PSXScriptSection = PSXScriptpage:addSection("Pet Sim X Scripts")
+	local PSXScript1 = PSXScriptSection:addToggle("DHX Gui", nil, function(state)
+		state = loadstring(game:HttpGet("https://raw.githubusercontent.com/si1nnx/psxx/main/g"))()
+	end)
+	local PSXScript2 = PSXScriptSection:addToggle("Mukuro Gui", nil, function(state)
+		state = loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+	end)
+	local PSXScript3 = PSXScriptSection:addToggle("Shiny-Tool Gui", nil, function(state)
+		state = loadstring(game:HttpGet("https://raw.githubusercontent.com/XLinestX/Shiny-Tool/main/ShinyTool.lua"))()
+	end)
+	-- AFS Scripts
+	local AFSScriptpage = Main:addPage("AFS ", 5012544693)
+	local AFSScriptSection = AFSScriptpage:addSection("AFS Scripts")
+	local AFSScript1 = AFSScriptSection:addToggle("KJ Gui", nil, function(state)
+		state = loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/KiJinGaming/FreeScript/main/KJHub.lua"))();
+	end)
+	local AFSScript2 = AFSScriptSection:addToggle("Polar Hub", nil, function(state)
+		state = loadstring(game:HttpGet("https://raw.githubusercontent.com/DevPolarhub/ScriptPacks/main/AnimeFighterSimulater"))()
+	end)
+	local AFSScript3 = AFSScriptSection:addToggle("DeadTired Hub", nil, function(state)
+		state = loadstring(game:HttpGet(('https://raw.githubusercontent.com/pspboy08/dollhouse/main/AFSGUI.lua')))()
+	end)
+	-- YBA Scripts
+	local YBAScriptpage = Main:addPage("YBA ", 5012544693)
+	local YBAScriptSection = YBAScriptpage:addSection("YBA Scripts")
+	local YBAScript1 = YBAScriptSection:addToggle("Obfuscated Gui", nil, function(state)
+		state = loadstring(game:HttpGet("https://raw.githubusercontent.com/kolgie/YBA-GUI/main/yba-gui-obfuscated.lua"))()
+	end)
+	local YBAScript2 = YBAScriptSection:addToggle("VG Hub", nil, function(state)
+		state = loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end)
+	local YBAScript3 = YBAScriptSection:addToggle("YBA Gui", nil, function(state)
+		state = loadstring(game:HttpGet("https://pastebin.com/raw/XUSatpwK"))()
+	end)
+	-- DaHood
+	local DHScriptpage = Main:addPage("DaHood ", 5012544693)
+	local DHScriptSection = DHScriptpage:addSection("DaHood Scripts")
+	local DHScript1 = DHScriptSection:addToggle("Faded Gui", nil, function(state)
+		state = loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+	end)
+	local DHScript2 = DHScriptSection:addToggle("VG Hub", nil, function(state)
+		state = loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end)
+
+	-- Shindo Life
+	local SLScriptpage = Main:addPage("Shindo Life ", 5012544693)
+	local SLScriptSection = SLScriptpage:addSection("Shindo Life Scripts")
+	local SLScript1 = SLScriptSection:addToggle("Bruh Hub", nil, function(state)
+		state = loadstring(game:HttpGet("https://bruh.keshsenpai.com/.lua"))()
+	end)
+	local SLScript2 = SLScriptSection:addToggle("Easy Hub", nil, function(state)
+		state =loadstring(game:HttpGet("https://raw.githubusercontent.com/TheScytheis/rbxdf/main/9AHD98ahd89AHD89ahd9U"))()
+
+	end)
+	local SLScript3 = SLScriptSection:addToggle("VG Hub", nil, function(state)
+		state = loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end)
+	local MiscScriptpage = Main:addPage("Misc", 5012544693)
+	local MiscScriptSection = MiscScriptpage:addSection("Last updated: 12/31/2021")
+	local TotalScriptSection = MiscScriptpage:addSection("Total Scripts:15")
+	local NewScriptSection = MiscScriptpage:addSection("New Scripts:15")
+	else
+	    game.Players.LocalPlayer:Kick("Wrong version! Make sure to update your version by getting the updated script in the Discord! Discord: https://discord.gg/9Xbg8ncjbQ")
+end
